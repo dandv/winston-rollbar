@@ -46,7 +46,7 @@ winston.add(winston.transports.Rollbar, options);
 
 The Rollbar transport uses the universal [rollbar.js](https://github.com/rollbar/rollbar.js) library behind the scenes.  Options are the following:
 
-* **rollbarConfig**:        Rollbar configuration ([more info](https://rollbar.com/docs/notifier/node_rollbar/#configuration-reference)) (mandatory, must contain rollbarAccessToken)
+* **rollbarConfig**:        [Rollbar configuration](https://docs.rollbar.com/docs/nodejs) (mandatory, must contain `accessToken`)
 * **metadataAsRequest**:    Uses metadata object as Rollbar's request parameter. (default: **false** will send for **meta.req** if provided)
 * **level**:                Level of messages this transport should log. (default: **warn**).
 * **silent**:               Boolean flag indicating whether to suppress output (default: **false**).
