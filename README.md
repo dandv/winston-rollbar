@@ -34,7 +34,7 @@ const logger = new winston.Logger({ transports: [new Rollbar({
 var winston = require('winston');
 
 //
-// Requiring `winston-rollbar` will expose
+// Requiring `winston-transport-rollbar` will expose
 // `winston.transports.Rollbar`
 //
 require('winston-transport-rollbar').Rollbar;
